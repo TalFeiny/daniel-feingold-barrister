@@ -87,7 +87,7 @@ export async function POST(request: Request) {
         </div>
 
         <p style="font-size: 11px; color: #999; margin-top: 24px; border-top: 1px solid #eee; padding-top: 16px;">
-          Submitted via danielfeingold.co.uk · ${new Date().toLocaleString('en-GB', { timeZone: 'Europe/London' })}
+          Submitted via dftaxbarrister.uk · ${new Date().toLocaleString('en-GB', { timeZone: 'Europe/London' })}
         </p>
       </div>
     `

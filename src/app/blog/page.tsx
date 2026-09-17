@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { blogPosts } from '@/data/blog-posts'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://danielfeingold.co.uk'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dftaxbarrister.uk'
 
 export const metadata: Metadata = {
   title: 'Tax Insights & Articles | Daniel Feingold Tax Barrister',

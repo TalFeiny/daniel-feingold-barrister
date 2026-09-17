@@ -5,7 +5,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { blogPosts, getBlogPostBySlug } from '@/data/blog-posts'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://danielfeingold.co.uk'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dftaxbarrister.uk'
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }))
