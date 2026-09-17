@@ -40,7 +40,7 @@ export async function POST(request: Request) {
     }
 
     const resend = getResend()
-    const toEmail = process.env.CONTACT_TO_EMAIL ?? 'clerks@burnellchambers.co.uk'
+    const toEmail = process.env.CONTACT_TO_EMAIL ?? 'dfeingold@burnellchambers.co.uk'
     const fromEmail = process.env.CONTACT_FROM_EMAIL ?? 'onboarding@resend.dev'
 
     const emailHtml = `

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const practiceLinks = [
   'Residence & Domicile',
   'HMRC Disputes',
@@ -104,9 +106,22 @@ export default function Footer() {
           a barrister&ndash;client relationship. Burnell Chambers is not a law firm.
         </p>
 
-        <div className="flex flex-wrap justify-between gap-3 text-[0.73rem] text-white/30">
-          <span>&copy; {year} Burnell Chambers. All rights reserved.</span>
-          <span>Regulated by the Bar Standards Board</span>
+        <div className="flex flex-wrap justify-between items-center gap-4 text-[0.73rem] text-white/30">
+          <div className="flex flex-wrap gap-3">
+            <span>&copy; {year} Burnell Chambers. All rights reserved.</span>
+            <span className="opacity-50">|</span>
+            <span>&copy; {year} Daniel Feingold</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/images/bar-standards-board.png"
+              alt="Bar Standards Board – Regulating Barristers"
+              width={120}
+              height={63}
+              className="h-10 w-auto"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </footer>

@@ -1,19 +1,19 @@
 const areas = [
   {
-    title: 'Residence & Domicile',
-    desc: 'Tax planning for non-domiciliaries, expatriates, and internationally mobile individuals. Advice on UK departure, remittance basis, and the Finance Act 2025 extended deemed domicile rules.',
+    title: 'Residence, Long Term Residents and Former Non-Domiciled',
+    desc: 'Tax Planning for former residents, former non Domiciled. Clear and precise legal advice on leaving the UK tax net, FIG planning and claims. The new Long Term Resident and FIG rules.',
   },
   {
     title: 'HMRC Disputes & Investigations',
-    desc: 'Representing clients in tax investigations, enquiries, and disputes with HMRC, including Code of Practice 9, offshore disclosure, and Tax Tribunal appeals.',
+    desc: 'Reorienting and Advising on Complex Tax Investigations and Enquiries. Offshore & Crypto, including COP8 & 9, Corporate Residence and CFCs, Offshore linked to MAC, TIE & Double Tax Treaty Disclosure cases. Taking Cases to Tax Tribunals and ADR.',
   },
   {
     title: 'Corporate Restructuring & MBOs',
-    desc: 'Tax advice on mergers, acquisitions, demergers, management buy-outs, company reconstructions, and pre-sale planning to maximise tax efficiency.',
+    desc: 'Tax advice on mergers, acquisitions, demergers, management buy-outs, company reconstructions, and pre-sale planning to maximise tax efficiency for Buyers and Sellers.',
   },
   {
     title: 'Transfer Pricing & IP',
-    desc: 'International transfer pricing structuring, intellectual property rights management, and cross-border royalty arrangements for multinational groups.',
+    desc: 'Including Patent Box and Royalty structures. The Tax treatment of IP Rights in sales and transfers.',
   },
   {
     title: 'Employee Incentives & EOTs',
@@ -42,7 +42,7 @@ export default function Expertise() {
     <section id="expertise" className="bg-cream py-20" aria-labelledby="expertise-heading">
       <div className="max-w-6xl mx-auto px-6">
         <span className="section-label">Areas of Practice</span>
-        <h2 id="expertise-heading" className="section-title">Specialist Tax Expertise</h2>
+        <h2 id="expertise-heading" className="section-title">Specialist Tax Law Expertise</h2>
         <p className="section-intro">
           Daniel advises on the full range of complex UK and international tax matters,
           instructed by leading law firms, accountancy practices, and directly by clients

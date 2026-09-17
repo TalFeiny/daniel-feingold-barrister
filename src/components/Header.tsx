@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 const navLinks = [
   { href: '/#expertise', label: 'Expertise' },
@@ -47,13 +48,15 @@ export default function Header() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-between py-4 gap-4">
             {/* Logo */}
-            <a href="/" className="flex flex-col no-underline flex-shrink-0">
-              <span className="font-serif text-[1.45rem] text-white leading-none tracking-[0.01em]">
-                Daniel Feingold
-              </span>
-              <span className="text-gold text-[0.68rem] tracking-[0.16em] uppercase mt-[0.2rem]">
-                Tax Barrister · Burnell Chambers
-              </span>
+            <a href="/" className="flex-shrink-0 no-underline">
+              <Image
+                src="/images/burnell-chambers-logo.webp"
+                alt="Burnell Chambers"
+                width={160}
+                height={46}
+                className="h-12 w-auto brightness-0 invert"
+                priority
+              />
             </a>
 
             {/* Desktop nav */}
@@ -71,7 +74,7 @@ export default function Header() {
                 href="/#contact"
                 className="ml-2 bg-gold hover:bg-gold-light text-white px-5 py-2 text-[0.75rem] tracking-wide uppercase transition-colors rounded-sm font-medium"
               >
-                Instruct Daniel
+                Instruct Mr. Feingold
               </a>
             </nav>
 

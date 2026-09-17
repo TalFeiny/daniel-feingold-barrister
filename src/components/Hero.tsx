@@ -33,7 +33,7 @@ export default function Hero() {
               Middle Temple.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#contact" className="btn-primary">Instruct Daniel</a>
+              <a href="#contact" className="btn-primary">Instruct Mr. Feingold</a>
               <a href="#expertise" className="btn-outline-white">Areas of Practice</a>
             </div>
 
