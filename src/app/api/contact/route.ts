@@ -1,9 +1,6 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-// Required for Cloudflare Pages deployment
-export const runtime = 'edge'
-
 // Lazy init — avoids crashing at build time when env vars are absent
 function getResend() {
   const key = process.env.RESEND_API_KEY
